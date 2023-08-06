@@ -46,7 +46,7 @@ Welcome to the NBA Player Information App! This project provides a platform to s
 
 <div >
 <img width="660px" src="./nba.gif"/>
-<img width="168px" src="./nba1.gif"/>
+<img width="165px" src="./nba1.gif"/>
 </div>
 
 ## Technologies and Libraries
