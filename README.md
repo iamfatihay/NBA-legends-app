@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Countries App
+## Live Link: https://nba-legends-app-fay.netlify.app/
+## Description
+Welcome to the NBA Player Information App! This project provides a platform to showcase and explore legend NBA players' information. With an intuitive user interface. Users can learn about their favorite players, view and discover their stats.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+- <span style="font-size: larger;">**Player Information**</span>: Access comprehensive information about each NBA player, including their career stats, achievements, and personal details.
+- <span style="font-size: larger;">**Responsive Design**</span>: Enjoy a responsive design that ensures a seamless experience across different devices, such as desktops, tablets, and smartphones.
+- <span style="font-size: larger;">**Search Functionality**</span>: Easily search for specific NBA players using the search bar for quick access.
 
-## Available Scripts
+## Project Skeleton
+```
+.
+├── LICENSE
+├── README.md
+├── nba.gif
+├── nba1.gif
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   └── index.html
+└── src
+    ├── App.css
+    ├── App.js
+    ├── assets
+    │   └── nba-logo.png
+    ├── components
+    │   ├── CardContainer.css
+    │   ├── CardContainer.jsx
+    │   ├── Header.css
+    │   ├── Header.jsx
+    │   ├── PlayerCard.css
+    │   └── PlayerCard.jsx
+    ├── helper
+    │   └── data.js
+    └── index.js
+```
+## Expected Outcomes
+<div >
+<img width="660px" src="./nba.gif"/>
+<img width="168px" src="./nba1.gif"/>
+</div>
 
-In the project directory, you can run:
+## Technologies and Libraries
+- <span style="font-size: larger;">**React.js**</span>: A powerful JavaScript library for building interactive user interfaces.
+- <span style="font-size: larger;">**React Hooks**</span>: React Hooks provide a way to use state and other React features in functional components without writing a class.
+- <span style="font-size: larger;">**Font Awesome**</span>: Provides a wide range of icons used for visual elements and UI enhancement.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the application on your local machine, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the project to your computer:
 
-### `npm test`
+   ```
+   git clone https://github.com/iamfatihay/NBA-legends-app.git
+2. Open your terminal and navigate to the project directory.
+   ```
+   cd NBA-legends-app
+3. Install the dependencies:
+    ```
+    npm install
+4. Start the application:
+    ```
+    npm start
+5. Open your web browser and visit  **http://localhost:3000**  to explore the NBA Legends Application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contribution
+Welcome contributions to enhance the NBA Legends Application! If you find any bugs or have ideas for improvements, please open an issue or submit a pull request. I appreciate your valuable input!
 
-### `npm run build`
+## License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The NBA Legends Application is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
